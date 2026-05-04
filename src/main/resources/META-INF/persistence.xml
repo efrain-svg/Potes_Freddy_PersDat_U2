@@ -9,7 +9,7 @@
             <property name="jakarta.persistence.jdbc.driver" value="com.mysql.cj.jdbc.Driver"/>
             <property name="jakarta.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/bd_componentes_electronicos?createDatabaseIfNotExist=true"/>
             <property name="jakarta.persistence.jdbc.user" value="root"/>
-            <property name="jakarta.persistence.jdbc.password" value="REEMPLAZAR_CON_PASSWORD"/>
+            <property name="jakarta.persistence.jdbc.password" value="admin"/>
             <property name="hibernate.dialect" value="org.hibernate.dialect.MySQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="validate"/>
             <property name="hibernate.show_sql" value="true"/>
@@ -17,4 +17,3 @@
         </properties>
     </persistence-unit>
 </persistence>
-
